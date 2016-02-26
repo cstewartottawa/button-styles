@@ -5,7 +5,7 @@ html {
 
 .btn {
   font-size: 1.125rem;
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   padding:0.4em;
   text-decoration: none;
@@ -15,7 +15,7 @@ html {
 
 .btn-small {
   font-size: 0.875rem;
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   padding: 0.3em;
   text-decoration: none;
@@ -25,7 +25,7 @@ html {
 
 .btn-big {
   font-size: 1.5rem;
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   padding: 0.75em;
   text-decoration: none;
@@ -56,6 +56,31 @@ html {
   text-decoration: none;
   border-width: 3px;
   border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-small:hover {
+  background-color: #000;
+}
+
+.btn-big:hover {
+  background-color: #000;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  color:#fff
 }
 
 *, *::before, *::after {
