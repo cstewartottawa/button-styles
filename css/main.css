@@ -5,32 +5,49 @@ html {
 
 .btn {
   font-size: 1.125rem;
+  background-color: #000;
+  color: #fff;
   padding:0.4em;
   text-decoration: none;
+  border-width: 3px;
+  border-radius: 8px;
 }
 
 .btn-small {
   font-size: 0.875rem;
+  background-color: #000;
+  color: #fff;
   padding: 0.3em;
   text-decoration: none;
+  border-width: 3px;
+  border-radius: 8px;
 }
 
 .btn-big {
   font-size: 1.5rem;
+  background-color: #000;
+  color: #fff;
   padding: 0.75em;
   text-decoration: none;
+  border-width: 3px;
+  border-radius: 8px;
 }
 
 .btn-subtle {
   background-color: #ccc;
   color: #fff;
   text-decoration: none;
+  border-width: 3px;
+  border-radius: 8px;
 }
 
 .btn-ghost{
-  background-color: #ccc;
+  background-color: #fff;
   color: #000;
   text-decoration: none;
+  border-width: 3px;
+  border-radius: 8px;
+  border-color: #000;
 }
 
 .btn-warning{
@@ -38,6 +55,7 @@ html {
   color: #fff;
   text-decoration: none;
   border-width: 3px;
+  border-radius: 8px;
 }
 
 *, *::before, *::after {
